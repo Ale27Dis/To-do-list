@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+ 
+    <link rel="icon" type="image/x-icon" href="https://static.vecteezy.com/system/resources/previews/006/693/247/non_2x/list-icon-template-black-color-editable-list-icon-symbol-flat-sign-isolated-on-white-background-simple-logo-illustration-for-graphic-and-web-design-free-vector.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>To-Do List</h1>
+    </header>
+    <main>
+        <div class="todo-container">
+            <input type="text" id="todo-input" placeholder="Aggiungi una nuova attività...">
+            <input type="datetime-local" id="todo-date">
+            <button id="add-todo">Aggiungi</button>
+            <ul id="todo-list"></ul>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 To-Do List. All rights reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
